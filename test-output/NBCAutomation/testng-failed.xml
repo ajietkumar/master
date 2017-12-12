@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NBCAutomation]">
+  <test name="NBCAutomation(failed)">
+    <parameter name="environment" value="Firefox"/>
+    <parameter name="os" value="Firefox"/>
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="osversion" value="Firefox"/>
+    <parameter name="version" value="Firefox"/>
+    <classes>
+      <class name="com.nbcd.Test.TCShowHomePage_043VerifyFaceBook_SNLTags_DBB_3078">
+        <methods>
+          <include name="getBrowserType"/>
+          <include name="afterMethod"/>
+          <include name="endReport"/>
+          <include name="FB_SNLTags"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowHomePage_043VerifyFaceBook_SNLTags_DBB_3078 -->
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_Latest_Clips_Section_DBB_3059">
+        <methods>
+          <include name="getBrowserType"/>
+          <include name="afterMethod"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="Verify_Latest_Clips_Section"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowHomePage_Verify_Latest_Clips_Section_DBB_3059 -->
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_About_The_Show_NBCRESP_1573">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="Verify_About_The_Show"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowHomePage_Verify_About_The_Show_NBCRESP_1573 -->
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_Dynamic_Lead_Slide_NBCRESP_1163">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="Verify_Dynamic_Lead_Slide"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowHomePage_Verify_Dynamic_Lead_Slide_NBCRESP_1163 -->
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_Filter_DBB_3687">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="endReport"/>
+          <include name="VerifyFilter"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCShowHomePage_Verify_Filter_DBB_3687 -->
+    </classes>
+  </test> <!-- NBCAutomation(failed) -->
+</suite> <!-- Failed suite [NBCAutomation] -->
